@@ -49,3 +49,7 @@ async-trait = "0.1.56"
 schemars = "0.8.12"
 serde = { version = "1.0.156", features = ["derive"] }
 tower-http = { version = "0.4.0", features = ["cors"] }
+tower = { version = "0.4.13", features = ["util", "timeout"] }
+tower-timeout = "0.3.0"
+tower-layer = "0.3"
+
